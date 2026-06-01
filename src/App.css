@@ -1,40 +1,57 @@
-button{
-  color:white;
-  background-color: blue;
-  margin-top:20px;
-  height:30px;
-  width:200px;
- 
+body {
+  font-family: Arial, sans-serif;
+  background-color: pink;
 }
 
-.container
-{
-  display:flex;
-  justify-content: center; 
-  height: 100vh; 
+.main {
+  text-align: center;
+  margin-top: 100px;
 }
 
-h1{
-  font-size: 25px;
-  color: black;
+h1 {
+  color: #222;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-#but{
-  font-size:20px;
-  height:30px;
-  width:100px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-#but2
-{
-  background-color: green;
-  color:white;
+#but {
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-h3{
-  color:white;
+#but:hover {
+  background-color: #3730a3;
+  transform: scale(1.1);
 }
 
-body{
-  background-color: rgb(171, 239, 233);
+#but2 {
+  width: 120px;
+  height: 80px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 4px 25px rgba(184, 15, 15, 0.2);
+}
+
+h3 {
+  margin-top: 30px;
+  color: #222;
+  font-size: 1.5rem;
 }
