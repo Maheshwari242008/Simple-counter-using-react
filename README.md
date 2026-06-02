@@ -1,20 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# React Counter App 🔢
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple counter application built using React.js and the useState Hook.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Increment counter value
+* Decrement counter value
+* Real-time UI updates
+* Responsive and clean design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* CSS
+* Vite
 
-## Expanding the ESLint configuration
+## Concepts Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Simple-counter-using-react
->>>>>>> 10d359f2bca78b915954c917fb238cef2f2e3ec7
+* React Components
+* State Management with useState
+* Event Handling
+* JSX
+* CSS Styling
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+
+* Reset button
+* Custom increment/decrement values
+* Dark/Light mode
+* Counter history
+
+## Author
+
+Maheshwari Raccha
